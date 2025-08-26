@@ -1,6 +1,6 @@
 # Project Pore-Net
 
-<img width="444" alt="image" src="https://github.com/user-attachments/assets/fb7285bc-0b0d-4836-b160-67558601113c" />
+<img width="888" height="860" alt="image" src="https://github.com/user-attachments/assets/d0fddc29-44d2-4265-bd63-7adac9f6b020" />
 
 Learn Pore Scale Physics in the way of Machine Learning
 
