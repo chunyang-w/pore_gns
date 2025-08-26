@@ -1,0 +1,67 @@
+**/.DS_Store
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+*.egg-info/*
+.eggs/*
+output/*
+
+bench/arch/*
+bench/curv/*
+
+# animation and assets
+
+arch/0output*
+animation*
+
+bench/rmse/*
+
+# dataset files
+data/pad*
+data/0*
+data/rock_001_064_RobuGlass3_rec_16bit_abs_ShiftedDown18Left7_compressed_down8/
+data/tif_072_down8/
+data/tif_073_segmented_tifs_down8/
+data/tif_072_down8_interpolated/
+
+# wandb
+wandb/*
+
+# checkpoint
+checkpoint_*
+
+# Model files
+*.pth
+
+# temp files
+notebook/temp/*
+temp/*
+# files
+
+*.html
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+out/*
+training_log.txt
+
+wandb/*
+wandb/
+out/
+notebook/pred_072/
+notebook/pre_072_csv/
+notebook/*.pt
+
+.cursor/*
+notebook/pred_073/*
+
+bench/interpolated_fields/
+bench/*.csv
+notebook/*.csv
+
+bench/int*
+data/GNS*
+
+data/PC_*
+out/ae/*

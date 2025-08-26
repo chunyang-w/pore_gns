@@ -1,0 +1,2 @@
+max-line-length = 120
+ignore = E402  # Ignore module-level imports not at the top of the file
