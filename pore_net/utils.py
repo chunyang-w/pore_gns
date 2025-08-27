@@ -1,3 +1,4 @@
+# Code from Chunyang Wang https://github.com/chunyang-w & Yuxuan Gu https://github.com/guyuxuan9
 import torch
 import pyvista as pv
 import numpy as np
