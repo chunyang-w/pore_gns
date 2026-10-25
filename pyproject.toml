@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pore_gns"
+version = "0.1.0"
+description = "Coupled graph network and 3-D U-Net for pore-scale two-phase flow, one CT frame per step"
+requires-python = ">=3.10"
+dependencies = ["torch", "torch_cluster", "numpy", "pandas", "tifffile"]
+
+[project.optional-dependencies]
+figures = ["matplotlib"]
+
+[project.scripts]
+pore-gns-demo = "pore_gns.demo:main"
+
+[tool.setuptools.packages.find]
+include = ["pore_gns*"]
